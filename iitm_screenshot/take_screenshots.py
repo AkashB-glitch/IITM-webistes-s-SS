@@ -35,18 +35,21 @@ async def capture_all_screenshots():
             print(f" [{i}/{len(urls)}] Visiting: {url} ...", end="", flush=True)
             
             try:
-                # FIX 2: Wait for main structure layout rather than waiting forever for heavy backgrounds
-                await page.goto(url, wait_until="domcontentloaded", timeout=25000)
+                # Try to load the page (timeout after 5 seconds so we don't get stuck forever)
+                await page.goto(url, timeout=5000)
+            except Exception as e:
+                error_msg = str(e).split('\n')[0]
+                print(f" ⚠️ Failed or slow ({error_msg}) - taking picture anyway...", end="")
                 
-                # Give it a tiny 2-second breathing room to visually render
-                await asyncio.sleep(2) 
-                
-                # Take the first-page screenshot
+            # Wait exactly 5 seconds for whatever is on the screen to settle
+            await asyncio.sleep(5)
+            
+            try:
+                # Take the screenshot!
                 await page.screenshot(path=save_path, full_page=False)
                 print(" ✅ Saved!")
-                
-            except Exception as e:
-                print(f" ❌ Failed (Timeout or page error)")
+            except Exception as screenshot_error:
+                print(f" ❌ Could not capture screen: {screenshot_error}")
                 
         await browser.close()
     print(f"\n🎉 Done! Check the '{output_folder}' folder on your computer for the pictures.")
