@@ -44,6 +44,33 @@ async def capture_all_screenshots():
             # Wait exactly 5 seconds for whatever is on the screen to settle
             await asyncio.sleep(5)
             
+            # Inject a timestamp overlay into the webpage before screenshotting
+            try:
+                current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                await page.evaluate(f"""() => {{
+                    const div = document.createElement('div');
+                    div.style.position = 'fixed';
+                    div.style.bottom = '15px';
+                    div.style.right = '15px';
+                    div.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+                    div.style.color = '#ffffff';
+                    div.style.padding = '10px 20px';
+                    div.style.fontSize = '24px';
+                    div.style.fontWeight = 'bold';
+                    div.style.fontFamily = 'Arial, sans-serif';
+                    div.style.zIndex = '2147483647'; // Max z-index to ensure it's on top
+                    div.style.borderRadius = '8px';
+                    div.style.boxShadow = '0 4px 6px rgba(0,0,0,0.3)';
+                    div.innerText = 'Captured: {current_time}';
+                    if (document.body) {{
+                        document.body.appendChild(div);
+                    }} else {{
+                        document.documentElement.appendChild(div);
+                    }}
+                }}""")
+            except Exception as e:
+                pass # If the page is completely broken or empty, we can't inject JS, but we'll still take the screenshot
+            
             try:
                 # Take the screenshot!
                 await page.screenshot(path=save_path, full_page=False)

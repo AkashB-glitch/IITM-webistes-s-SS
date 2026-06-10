@@ -1,0 +1,2405 @@
+[
+    {
+        "domain": "accounts.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "acr.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "acrinternal.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "acservices.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "ae.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "alumni.doms.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "alumni.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "apm.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "app.diploma.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "app.onlinedegree.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "appdev.onlinedegree.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "aquamap.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "archive.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "artcs.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "asean.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "asr.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "asset-db.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "asu-preprod.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "asu-preprodb.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "asuldap.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080
+        ]
+    },
+    {
+        "domain": "backend.seek.onlinedegree.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "bcga.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "behappy.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "biofoundry.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "bioincubator.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "biomimicry.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "biotech.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "biotechnew.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "bog.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "cacs.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "cammd.iitm.ac.in",
+        "open_ports": [
+            21,
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "car.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "catalysis.eprints.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "cc.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ccmdrive.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080
+        ]
+    },
+    {
+        "domain": "ccsd.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ccupload.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ccw.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "cec.iitm.ac.in",
+        "open_ports": [
+            21,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "ceet.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "cenlib.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "cerai.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "cessa.iitm.ac.in",
+        "open_ports": [
+            21,
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "cfi.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "che.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "chem.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "chennai36.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "cifil.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "civil.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "cmt.respark.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "coap.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "code.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "coers.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "coeut.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "coezet.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "conf.code.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "courses.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "cppics.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "crr.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "cryoem.iitm.ac.in",
+        "open_ports": [
+            21,
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "csbm.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "csiecourses.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "cstf.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ctap.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ctcs.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "cwswr.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "cystar.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "czeroc.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "d3.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "datacommons.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "dementify.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "dev.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "diarcoe.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "dirv.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "discourse.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "discourse.onlinedegree.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "dmmba.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "doe.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "doms.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "dost.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "dsai.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "e-verify.acservices.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "ecell.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ecvac.iitm.ac.in",
+        "open_ports": [
+            21,
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ed.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "eescholars.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "eeservice.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "elearn.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "energy.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "enggunit.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ers.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "euapp.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "events.respark.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "everify.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ext01ldap.iitm.ac.in",
+        "open_ports": [
+            22
+        ]
+    },
+    {
+        "domain": "fa.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "facapp.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "fasal.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "fees.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "ftp.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "fw.respark.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "gate.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "gateapp.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ge-uat.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "giftshop.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "global.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "gurusetu.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "hc-uat.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "heritage.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "hhc.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "hmis-app.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "hmis.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "home.iitm.ac.in",
+        "open_ports": [
+            21,
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "hospital.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "hosteldine.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "hpce.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "hr-api-uat.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "hr-uat.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "hss.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "htic.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ia.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "ibse.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "icandsr.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "icsrdev.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "icsris.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "icsrpis.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "idp.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "iec.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "iinventiv.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "iitmaa.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "iitmprwa.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ikollege.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "impactstories.iitm.ac.in",
+        "open_ports": [
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "incubation.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "instispace.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "internalrecruit.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "internship.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "inup.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ioas.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ioe.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ip.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "iproof-api.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "isea-isap2026.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ishmt.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "isroiitmcoe.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ivrf.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "jaljeevaninnovate.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "jam.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "jeeadv.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "joyofgiving.alumni.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "kashitamil.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "keepitflowing.alumni.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "kushal.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "leap.respark.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "mailx1.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            3306
+        ]
+    },
+    {
+        "domain": "mailx2.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "mailx3.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            3306
+        ]
+    },
+    {
+        "domain": "mailx4.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "match.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "math.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "maxrap.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "mbsfacapp.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "mcsc.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "mea.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "mech.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "mems.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "metallurgy.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "mme.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "moodle.respark.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "mst.iitm.ac.in",
+        "open_ports": [
+            21,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "mtechadm.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "naksha.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ncaht.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "nccrd.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "nctb.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "nfapt.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "nipta.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "nirmaan.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "nptelonlinecourses.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "nptelonlinecourses1.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "nsm.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "nss.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "ntcpwc.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "odei.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "oir.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "oirdss.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "oldcourses.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "onlinedegree.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ovd.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "pallava.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "paramshakti.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "paramvidya.iitm.ac.in",
+        "open_ports": [
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "parentconnect.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "pbl.biotech.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "philanthropy.iitm.ac.in",
+        "open_ports": [
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "photos.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "physics.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "placement.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "placements.onlinedegree.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "posh.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "quantum.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "r2d2.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ramoodle.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "rbcdsai.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "rbg.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "recruit.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "redcap.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "rekhicentersoh.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "remote.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "research.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "resevaluation.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "respark.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "riselab.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "rpcrm.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "rpn.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "rtis.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "rutag.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "saif.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "scaleai.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "scoringtool.code.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "seek.onlinedegree.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "semantic.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "shaastramag-uat.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "shaastramag.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "sie.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "sites.ee.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "skillsacademy.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "smart.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "smtp.iitm.ac.in",
+        "open_ports": [
+            22
+        ]
+    },
+    {
+        "domain": "smtp1.iitm.ac.in",
+        "open_ports": [
+            22
+        ]
+    },
+    {
+        "domain": "smtp2.iitm.ac.in",
+        "open_ports": [
+            22
+        ]
+    },
+    {
+        "domain": "sports.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "sri.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "ssan.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ssp.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "student.onlinedegree.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "sustainability.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "tac.global.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "tcf.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "tcoe.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "tech-talk.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "techkids.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "tenders.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "tgh.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "thearc.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "tlc.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "tlc2.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "touchlab.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "tulais.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "uat.joyofgiving.alumni.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "uatv2.joyofgiving.alumni.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "uay.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "ugadmissions.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "vanakkamkashi.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "vanavani.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "vpn.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "web.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "web.respark.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "web.zmail.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "webopac.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "wfapi-uat.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "wli.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "wmail.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ]
+    },
+    {
+        "domain": "wmtai.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "wmtech.code.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "womensforum.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "workflow-api.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "workflow-elearn.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "wsai.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.alumni.doms.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "www.archive.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "www.backend.seek.onlinedegree.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "www.biomimicry.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.chennai36.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.ctcs.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.ee.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "www.incubation.iitm.ac.in",
+        "open_ports": [
+            80
+        ]
+    },
+    {
+        "domain": "www.kashitamil.iitm.ac.in",
+        "open_ports": [
+            443
+        ]
+    },
+    {
+        "domain": "www.leap.respark.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.onlinedegree.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.respark.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.shaastramag.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.tcoe.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "www.techkids.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "www.vanakkamkashi.iitm.ac.in",
+        "open_ports": []
+    },
+    {
+        "domain": "xtic.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ]
+    },
+    {
+        "domain": "yaari.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "yrf.iitm.ac.in",
+        "open_ports": [
+            80,
+            443
+        ]
+    },
+    {
+        "domain": "zmail.iitm.ac.in",
+        "open_ports": [
+            22,
+            80,
+            443
+        ]
+    }
+]
