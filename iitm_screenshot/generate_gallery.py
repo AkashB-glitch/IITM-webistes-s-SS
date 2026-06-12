@@ -2,13 +2,9 @@ import os
 import glob
 import json
 import pathlib
+from datetime import datetime
 
-base_dir = "/var/www/html"
-try:
-    folders = [os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
-    folder = max(folders, key=os.path.getmtime)
-except Exception:
-    folder = "raw_screenshots"
+folder = "raw_screenshots"
 
 try:
     images = [img for img in sorted(os.listdir(folder)) if img.endswith(".png")]
@@ -33,19 +29,11 @@ if os.path.exists(results_file):
         pass
 
 # Extract scan date and time from folder name
-folder_name = os.path.basename(folder)
-if "_" in folder_name and "-" in folder_name:
-    # Example: 2026-06-10_15-15-32
-    parts = folder_name.split("_")
-    if len(parts) == 2:
-        date_part = parts[0]
-        time_part = parts[1].replace("-", ":")
-        scan_datetime = f"{date_part} {time_part}"
-    else:
-        scan_datetime = folder_name
-else:
-    scan_datetime = "Unknown"
+from datetime import datetime
 
+scan_datetime = datetime.fromtimestamp(
+    os.path.getmtime(folder)
+).strftime("%Y-%m-%d %H:%M:%S")
 html = f"""
 <!DOCTYPE html>
 <html>
@@ -119,7 +107,7 @@ function toggleView() {{
 for img in images:
     domain = img.replace(".png", "")
     img_path = os.path.join(folder, img)
-    file_uri = pathlib.Path(os.path.abspath(img_path)).as_uri()
+    file_uri = f"raw_screenshots/{img}"
     
     html += f'''
     <div class="card">
@@ -147,12 +135,16 @@ for img in images:
     domain = img.replace(".png", "")
     website_url = f"https://{domain}"
     
-    ports = port_data.get(domain)
-    if ports:
+    ports = port_data.get(domain, [])
+    # Keep only valid port numbers (filter out null/None)
+    valid_ports = [p for p in ports if p]
+    
+    if len(valid_ports) > 0:
         # Display exactly the ports that were discovered open on this specific server
-        port_text = ", ".join(map(str, ports))
+        port_text = ", ".join(map(str, valid_ports))
     else:
-        port_text = "443"
+        port_text = "443 (Default/Assumed)"
+
         
     html += f'''
         <tr>
