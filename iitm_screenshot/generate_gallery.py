@@ -16,11 +16,11 @@ category_urls = {"Active": [], "Warning": [], "Error": [], "Down": []}
 
 def get_style(category):
     if category == "Active":
-        return "🟢", "green", "badge-active", "border-active"
+        return "", "green", "badge-active", "border-active"
     elif category == "Warning":
-        return "🟠", "orange", "badge-warn", "border-warning"
+        return "", "orange", "badge-warn", "border-warning"
     elif category == "Error":
-        return "🔴", "red", "badge-error", "border-error"
+        return "", "red", "badge-error", "border-error"
     else:
         return "⚫", "black", "badge-down", "border-down"
 
@@ -123,7 +123,7 @@ function filterByPort() {{
         <p>Last Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
     </div>
     <div style="display: flex; gap: 15px; align-items: center;">
-        <input type="text" id="portSearch" onkeyup="filterByPort()" placeholder="🔍 Search Port (e.g. 80, 443)" style="padding: 10px; border-radius: 6px; border: 1px solid #ccc; width: 250px; font-size: 15px; outline: none;">
+        <input type="text" id="portSearch" onkeyup="filterByPort()" placeholder=" Search Port (e.g. 80, 443)" style="padding: 10px; border-radius: 6px; border: 1px solid #ccc; width: 250px; font-size: 15px; outline: none;">
         <button id="toggleBtn" class="btn" onclick="toggleView()">Switch to Table View</button>
     </div>
 </div>
@@ -159,9 +159,9 @@ for item in health_data:
         <div class="badges">
             <span class="badge {badge_class}">{icon} {category}</span>
             <span class="badge">HTTP: {status_code_str}</span>
-            <span class="badge">⏱️ {response_time}ms</span>
-            <span class="badge">🔌 {ports_str}</span>
-            <span class="badge" title="Retries used">🔄 {retries}</span>
+            <span class="badge">{response_time}ms</span>
+            <span class="badge"> {ports_str}</span>
+            <span class="badge" title="Retries used"> {retries}</span>
         </div>
     '''
     if screenshot and os.path.exists(screenshot):
@@ -201,9 +201,9 @@ def build_dropdown(title, count, icon, border_class, urls):
 
 dropdowns_html = f"""
 <div class="stats-container">
-    {build_dropdown("Active", category_counts["Active"], "🟢", "border-active", category_urls["Active"])}
-    {build_dropdown("Warning", category_counts["Warning"], "🟠", "border-warning", category_urls["Warning"])}
-    {build_dropdown("Error", category_counts["Error"], "🔴", "border-error", category_urls["Error"])}
+    {build_dropdown("Active", category_counts["Active"], "", "border-active", category_urls["Active"])}
+    {build_dropdown("Warning", category_counts["Warning"], "", "border-warning", category_urls["Warning"])}
+    {build_dropdown("Error", category_counts["Error"], "", "border-error", category_urls["Error"])}
     {build_dropdown("Down", category_counts["Down"], "⚫", "border-down", category_urls["Down"])}
 </div>
 """

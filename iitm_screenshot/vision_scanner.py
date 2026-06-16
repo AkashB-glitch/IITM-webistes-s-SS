@@ -5,11 +5,11 @@ import google.genai as genai
 from PIL import Image
 
 def run_vision_analysis():
-    print("👁️ Starting AI Vision Analysis on all screenshots...")
+    print("Starting AI Vision Analysis on all screenshots...")
     
     API_KEY = os.environ.get("GEMINI_API_KEY")
     if not API_KEY:
-        print("❌ ERROR: GEMINI_API_KEY is not set.")
+        print("ERROR: GEMINI_API_KEY is not set.")
         return "Failed: Missing API Key"
 
     client = genai.Client()
@@ -19,13 +19,13 @@ def run_vision_analysis():
     
     screenshot_dir = "raw_screenshots"
     if not os.path.exists(screenshot_dir):
-        print(f"❌ ERROR: {screenshot_dir} directory not found.")
+        print(f"ERROR: {screenshot_dir} directory not found.")
         return "Failed: No screenshots directory found."
 
     vision_results = []
     image_files = [f for f in os.listdir(screenshot_dir) if f.endswith('.png')]
     
-    print(f"📸 Found {len(image_files)} screenshots to analyze.")
+    print(f"Found {len(image_files)} screenshots to analyze.")
 
     for i, filename in enumerate(image_files, 1):
         filepath = os.path.join(screenshot_dir, filename)
@@ -60,13 +60,13 @@ def run_vision_analysis():
             vision_results.append(result_data)
             
             risk = result_data.get("risk_score", 0)
-            print(f"✅ Done (Risk: {risk}/10)")
+            print(f"Done (Risk: {risk}/10)")
             
             # Small sleep to prevent rate limiting
             time.sleep(2)
             
         except Exception as e:
-            print(f"❌ Error analyzing: {str(e)}")
+            print(f"Error analyzing: {str(e)}")
             vision_results.append({
                 "domain": domain,
                 "error": str(e)
@@ -75,7 +75,7 @@ def run_vision_analysis():
     with open("vision_results.json", "w") as f:
         json.dump(vision_results, f, indent=4)
         
-    print("🎉 Vision Analysis complete! Saved to vision_results.json")
+    print("Vision Analysis complete! Saved to vision_results.json")
     return "Vision analysis completed successfully. Results saved to vision_results.json"
 
 if __name__ == "__main__":

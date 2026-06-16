@@ -11,7 +11,7 @@ import google.genai as genai
 
 def discover_subdomains() -> str:
     """Runs the tool to discover IITM subdomains and saves them to iitm_urls.txt. Returns the execution status."""
-    print("🤖 [Tool execution] discover_subdomains()...", flush=True)
+    print("[Tool execution] discover_subdomains()...", flush=True)
     try:
         result = subprocess.run([sys.executable, "find_subdomains.py"], capture_output=True, text=True)
         return "Subdomain discovery completed successfully. File iitm_urls.txt was generated."
@@ -20,7 +20,7 @@ def discover_subdomains() -> str:
 
 def run_port_scan() -> str:
     """Runs the Nmap/Port scanning tool on the discovered subdomains. Saves results to results.json."""
-    print("🤖 [Tool execution] run_port_scan()...", flush=True)
+    print("[Tool execution] run_port_scan()...", flush=True)
     try:
         result = subprocess.run([sys.executable, "run_scan.py"], capture_output=True, text=True)
         return "Port scanning completed. File results.json was generated."
@@ -29,7 +29,7 @@ def run_port_scan() -> str:
 
 def capture_screenshots() -> str:
     """Runs the Playwright screenshot tool to capture images of all subdomains and check WAF health. Saves to website_health.json and raw_screenshots/."""
-    print("🤖 [Tool execution] capture_screenshots()...", flush=True)
+    print("[Tool execution] capture_screenshots()...", flush=True)
     try:
         result = subprocess.run([sys.executable, "take_screenshots.py"], capture_output=True, text=True)
         return "Screenshot capture completed. Data saved to website_health.json and raw_screenshots folder."
@@ -38,7 +38,7 @@ def capture_screenshots() -> str:
 
 def analyze_security_data() -> str:
     """Reads the website_health.json and results.json to analyze security posture. Returns a summary JSON string of the raw data to the agent."""
-    print("🤖 [Tool execution] analyze_security_data()...", flush=True)
+    print("[Tool execution] analyze_security_data()...", flush=True)
     try:
         with open("website_health.json", "r") as f:
             health_data = json.load(f)
@@ -59,7 +59,7 @@ def analyze_security_data() -> str:
 
 def run_vision_scanner() -> str:
     """Runs the multimodal vision scanner on captured screenshots to detect IITM logos and calculate risk scores. Saves results to vision_results.json."""
-    print("🤖 [Tool execution] run_vision_scanner()...", flush=True)
+    print("[Tool execution] run_vision_scanner()...", flush=True)
     try:
         result = subprocess.run([sys.executable, "vision_scanner.py"], capture_output=True, text=True)
         return "Vision analysis completed successfully. Results saved to vision_results.json"
@@ -68,7 +68,7 @@ def run_vision_scanner() -> str:
 
 def save_report(report_content: str) -> str:
     """Saves the agent's final markdown risk report to final_risk_report.md. Use this tool once the analysis is complete."""
-    print("🤖 [Tool execution] save_report()...", flush=True)
+    print("[Tool execution] save_report()...", flush=True)
     try:
         with open("final_risk_report.md", "w", encoding="utf-8") as f:
             f.write(report_content)

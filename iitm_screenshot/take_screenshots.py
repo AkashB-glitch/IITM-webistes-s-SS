@@ -143,9 +143,9 @@ async def capture_site(context, url, i, total, output_folder, semaphore, port_da
             try:
                 await page.screenshot(path=save_path, full_page=False)
                 screenshot_path = f"{os.path.basename(output_folder)}/{clean_name}"
-                print(f" ✅ {category} ({status_code}) - Retries: {retries}")
+                print(f" {category} ({status_code}) - Retries: {retries}")
             except Exception as e:
-                print(f" ❌ {category} ({status_code}) - No Screen")
+                print(f" {category} ({status_code}) - No Screen")
         finally:
             await page.close()
             
@@ -166,7 +166,7 @@ async def capture_all_screenshots():
     os.makedirs(output_folder, exist_ok=True)
 
     if not os.path.exists("iitm_urls.txt"):
-        print("❌ Error: iitm_urls.txt not found!")
+        print("Error: iitm_urls.txt not found!")
         return
 
     with open("iitm_urls.txt", "r") as f:
@@ -182,7 +182,7 @@ async def capture_all_screenshots():
             except:
                 pass
 
-    print(f"📸 Found {len(urls)} websites to check. Starting 100% Precision OSINT Engine...")
+    print(f"Found {len(urls)} websites to check. Starting 100% Precision OSINT Engine...")
 
     async with async_playwright() as p:
         # Mask automation properties from WAFs
@@ -204,7 +204,7 @@ async def capture_all_screenshots():
     with open("website_health.json", "w") as f:
         json.dump(health_results, f, indent=4)
 
-    print(f"\n🎉 Done! 100% Precision data saved to website_health.json")
+    print(f"\nDone! 100% Precision data saved to website_health.json")
 
 if __name__ == "__main__":
     asyncio.run(capture_all_screenshots())
