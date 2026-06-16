@@ -65,10 +65,7 @@
     },
     {
         "domain": "app.onlinedegree.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "appdev.onlinedegree.iitm.ac.in",
@@ -100,10 +97,7 @@
     },
     {
         "domain": "asean.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "asr.iitm.ac.in",
@@ -190,10 +184,7 @@
     },
     {
         "domain": "biomimicry.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "biotech.iitm.ac.in",
@@ -234,13 +225,7 @@
     },
     {
         "domain": "cammd.iitm.ac.in",
-        "open_ports": [
-            21,
-            22,
-            80,
-            443,
-            3306
-        ]
+        "open_ports": []
     },
     {
         "domain": "car.iitm.ac.in",
@@ -313,12 +298,7 @@
     },
     {
         "domain": "cec.iitm.ac.in",
-        "open_ports": [
-            21,
-            80,
-            443,
-            3306
-        ]
+        "open_ports": []
     },
     {
         "domain": "ceet.iitm.ac.in",
@@ -346,13 +326,7 @@
     },
     {
         "domain": "cessa.iitm.ac.in",
-        "open_ports": [
-            21,
-            22,
-            80,
-            443,
-            3306
-        ]
+        "open_ports": []
     },
     {
         "domain": "cfi.iitm.ac.in",
@@ -386,10 +360,7 @@
     },
     {
         "domain": "chennai36.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "cifil.iitm.ac.in",
@@ -426,7 +397,6 @@
     {
         "domain": "code.iitm.ac.in",
         "open_ports": [
-            22,
             80,
             443
         ]
@@ -497,13 +467,7 @@
     },
     {
         "domain": "cryoem.iitm.ac.in",
-        "open_ports": [
-            21,
-            22,
-            80,
-            443,
-            3306
-        ]
+        "open_ports": []
     },
     {
         "domain": "csbm.iitm.ac.in",
@@ -588,10 +552,7 @@
     },
     {
         "domain": "datacommons.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "dementify.iitm.ac.in",
@@ -686,11 +647,7 @@
     },
     {
         "domain": "dsai.iitm.ac.in",
-        "open_ports": [
-            22,
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "e-verify.acservices.iitm.ac.in",
@@ -877,17 +834,11 @@
     },
     {
         "domain": "ge-uat.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "giftshop.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "global.iitm.ac.in",
@@ -909,17 +860,11 @@
     },
     {
         "domain": "hc-uat.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "heritage.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "hhc.iitm.ac.in",
@@ -933,11 +878,16 @@
     },
     {
         "domain": "hmis-app.iitm.ac.in",
-        "open_ports": []
+        "open_ports": [
+            80,
+            443,
+            8443
+        ]
     },
     {
         "domain": "hmis.iitm.ac.in",
         "open_ports": [
+            80,
             443
         ]
     },
@@ -1138,6 +1088,7 @@
     {
         "domain": "incubation.iitm.ac.in",
         "open_ports": [
+            22,
             80,
             443
         ]
@@ -1165,7 +1116,6 @@
     {
         "domain": "internship.iitm.ac.in",
         "open_ports": [
-            80,
             443
         ]
     },
@@ -1294,11 +1244,7 @@
     },
     {
         "domain": "keepitflowing.alumni.iitm.ac.in",
-        "open_ports": [
-            22,
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "kushal.iitm.ac.in",
@@ -1446,19 +1392,11 @@
     },
     {
         "domain": "moodle.respark.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "mst.iitm.ac.in",
-        "open_ports": [
-            21,
-            80,
-            443,
-            3306
-        ]
+        "open_ports": []
     },
     {
         "domain": "mtechadm.iitm.ac.in",
@@ -1482,10 +1420,7 @@
     },
     {
         "domain": "ncaht.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "nccrd.iitm.ac.in",
@@ -1519,10 +1454,7 @@
     },
     {
         "domain": "nipta.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "nirmaan.iitm.ac.in",
@@ -1694,7 +1626,6 @@
     {
         "domain": "placement.iitm.ac.in",
         "open_ports": [
-            80,
             443
         ]
     },
@@ -1724,10 +1655,7 @@
     },
     {
         "domain": "r2d2.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "ramoodle.iitm.ac.in",
@@ -1817,7 +1745,6 @@
         "domain": "respark.iitm.ac.in",
         "open_ports": [
             22,
-            80,
             443
         ]
     },
@@ -1904,24 +1831,17 @@
     },
     {
         "domain": "shaastramag-uat.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "shaastramag.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "sie.iitm.ac.in",
         "open_ports": [
             22,
-            80,
-            443
+            80
         ]
     },
     {
@@ -1984,10 +1904,7 @@
     },
     {
         "domain": "ssan.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "ssp.iitm.ac.in",
@@ -2013,8 +1930,7 @@
         "domain": "tac.global.iitm.ac.in",
         "open_ports": [
             22,
-            80,
-            443
+            80
         ]
     },
     {
@@ -2083,12 +1999,7 @@
     },
     {
         "domain": "tlc2.iitm.ac.in",
-        "open_ports": [
-            22,
-            80,
-            443,
-            3306
-        ]
+        "open_ports": []
     },
     {
         "domain": "touchlab.iitm.ac.in",
@@ -2216,11 +2127,7 @@
     },
     {
         "domain": "wmtai.iitm.ac.in",
-        "open_ports": [
-            22,
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "wmtech.code.iitm.ac.in",
@@ -2278,17 +2185,11 @@
     },
     {
         "domain": "www.biomimicry.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "www.chennai36.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "www.ctcs.iitm.ac.in",
@@ -2317,9 +2218,7 @@
     },
     {
         "domain": "www.incubation.iitm.ac.in",
-        "open_ports": [
-            80
-        ]
+        "open_ports": []
     },
     {
         "domain": "www.kashitamil.iitm.ac.in",
@@ -2329,10 +2228,7 @@
     },
     {
         "domain": "www.leap.respark.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "www.onlinedegree.iitm.ac.in",
@@ -2350,10 +2246,7 @@
     },
     {
         "domain": "www.shaastramag.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "www.tcoe.iitm.ac.in",
@@ -2382,10 +2275,7 @@
     },
     {
         "domain": "yaari.iitm.ac.in",
-        "open_ports": [
-            80,
-            443
-        ]
+        "open_ports": []
     },
     {
         "domain": "yrf.iitm.ac.in",

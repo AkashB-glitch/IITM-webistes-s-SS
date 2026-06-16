@@ -1,0 +1,4145 @@
+[
+    {
+        "website": "alumni.iitm.ac.in",
+        "status_code": 404,
+        "category": "Error",
+        "response_time_ms": 671,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/alumni.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:26"
+    },
+    {
+        "website": "acrinternal.iitm.ac.in",
+        "status_code": 302,
+        "category": "Active",
+        "response_time_ms": 515,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/acrinternal.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:27"
+    },
+    {
+        "website": "acservices.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 91,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/acservices.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:27"
+    },
+    {
+        "website": "alumni.doms.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 68,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/alumni.doms.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:27"
+    },
+    {
+        "website": "accounts.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 521,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/accounts.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:27"
+    },
+    {
+        "website": "ae.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 402,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ae.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:29"
+    },
+    {
+        "website": "appdev.onlinedegree.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 125,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/appdev.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:29"
+    },
+    {
+        "website": "app.diploma.iitm.ac.in",
+        "status_code": 302,
+        "category": "Active",
+        "response_time_ms": 687,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/app.diploma.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:30"
+    },
+    {
+        "website": "artcs.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 394,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/artcs.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:30"
+    },
+    {
+        "website": "app.onlinedegree.iitm.ac.in",
+        "status_code": 302,
+        "category": "Active",
+        "response_time_ms": 654,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/app.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:31"
+    },
+    {
+        "website": "archive.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 179,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/archive.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:31"
+    },
+    {
+        "website": "asean.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 39,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/asean.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:31"
+    },
+    {
+        "website": "asset-db.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 202,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/asset-db.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:33"
+    },
+    {
+        "website": "backend.seek.onlinedegree.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 63,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/backend.seek.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:35"
+    },
+    {
+        "website": "asu-preprod.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 248,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/asu-preprod.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:35"
+    },
+    {
+        "website": "aquamap.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 547,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/aquamap.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:35"
+    },
+    {
+        "website": "asu-preprodb.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 257,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/asu-preprodb.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:35"
+    },
+    {
+        "website": "bcga.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 339,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/bcga.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:37"
+    },
+    {
+        "website": "asuldap.iitm.ac.in",
+        "status_code": "Connection Error",
+        "category": "Down",
+        "response_time_ms": 3393,
+        "retries": 1,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080
+        ],
+        "screenshot": "raw_screenshots/asuldap.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:38"
+    },
+    {
+        "website": "biomimicry.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 132,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/biomimicry.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:39"
+    },
+    {
+        "website": "biotechnew.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 736,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/biotechnew.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:40"
+    },
+    {
+        "website": "apm.iitm.ac.in",
+        "status_code": 302,
+        "category": "Active",
+        "response_time_ms": 471,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/apm.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:45"
+    },
+    {
+        "website": "bioincubator.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 680,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/bioincubator.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:46"
+    },
+    {
+        "website": "biofoundry.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 343,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/biofoundry.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:46"
+    },
+    {
+        "website": "bog.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 1128,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/bog.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:47"
+    },
+    {
+        "website": "asr.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 206,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/asr.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:49"
+    },
+    {
+        "website": "behappy.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 1245,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/behappy.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:51"
+    },
+    {
+        "website": "car.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 871,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/car.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:52"
+    },
+    {
+        "website": "cammd.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 92,
+        "retries": 0,
+        "open_ports": [
+            21,
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/cammd.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:53"
+    },
+    {
+        "website": "catalysis.eprints.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 917,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/catalysis.eprints.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:53"
+    },
+    {
+        "website": "cc.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 885,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/cc.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:55"
+    },
+    {
+        "website": "ccsd.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 478,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ccsd.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:57"
+    },
+    {
+        "website": "acr.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 1535,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/acr.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:58"
+    },
+    {
+        "website": "ccmdrive.iitm.ac.in",
+        "status_code": 302,
+        "category": "Active",
+        "response_time_ms": 678,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080
+        ],
+        "screenshot": "raw_screenshots/ccmdrive.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:58"
+    },
+    {
+        "website": "biotech.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 718,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/biotech.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:00:59"
+    },
+    {
+        "website": "ccupload.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 871,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ccupload.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:01"
+    },
+    {
+        "website": "cec.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 98,
+        "retries": 0,
+        "open_ports": [
+            21,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/cec.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:01"
+    },
+    {
+        "website": "ceet.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 24,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/ceet.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:01"
+    },
+    {
+        "website": "cessa.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 36,
+        "retries": 0,
+        "open_ports": [
+            21,
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/cessa.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:03"
+    },
+    {
+        "website": "cenlib.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 737,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/cenlib.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:04"
+    },
+    {
+        "website": "cfi.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 337,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/cfi.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:07"
+    },
+    {
+        "website": "chennai36.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 219,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/chennai36.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:07"
+    },
+    {
+        "website": "civil.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 590,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/civil.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:09"
+    },
+    {
+        "website": "cerai.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 444,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/cerai.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:09"
+    },
+    {
+        "website": "che.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 500,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/che.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:09"
+    },
+    {
+        "website": "cmt.respark.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 72,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/cmt.respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:10"
+    },
+    {
+        "website": "ccw.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 644,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ccw.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:11"
+    },
+    {
+        "website": "chem.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 1381,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/chem.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:13"
+    },
+    {
+        "website": "cacs.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 2370,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/cacs.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:13"
+    },
+    {
+        "website": "coap.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 786,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/coap.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:13"
+    },
+    {
+        "website": "cifil.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 611,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/cifil.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:13"
+    },
+    {
+        "website": "coezet.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 765,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/coezet.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:16"
+    },
+    {
+        "website": "coers.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 1031,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/coers.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:16"
+    },
+    {
+        "website": "coeut.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 931,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/coeut.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:16"
+    },
+    {
+        "website": "crr.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 577,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/crr.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:17"
+    },
+    {
+        "website": "code.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 944,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/code.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:17"
+    },
+    {
+        "website": "conf.code.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 1049,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/conf.code.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:17"
+    },
+    {
+        "website": "cppics.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 631,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/cppics.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:17"
+    },
+    {
+        "website": "csbm.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 285,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/csbm.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:17"
+    },
+    {
+        "website": "courses.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 1318,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/courses.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:17"
+    },
+    {
+        "website": "cryoem.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 34,
+        "retries": 0,
+        "open_ports": [
+            21,
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/cryoem.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:18"
+    },
+    {
+        "website": "csiecourses.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 375,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/csiecourses.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:18"
+    },
+    {
+        "website": "cstf.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 371,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/cstf.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:19"
+    },
+    {
+        "website": "ctap.iitm.ac.in",
+        "status_code": 301,
+        "category": "Active",
+        "response_time_ms": 250,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ctap.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:19"
+    },
+    {
+        "website": "cwswr.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 317,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/cwswr.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:19"
+    },
+    {
+        "website": "czeroc.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 120,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/czeroc.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:19"
+    },
+    {
+        "website": "cystar.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 254,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/cystar.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:19"
+    },
+    {
+        "website": "dementify.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 188,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/dementify.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:20"
+    },
+    {
+        "website": "d3.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 32,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/d3.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:20"
+    },
+    {
+        "website": "datacommons.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 59,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/datacommons.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:20"
+    },
+    {
+        "website": "diarcoe.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 169,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/diarcoe.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:21"
+    },
+    {
+        "website": "dev.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 419,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/dev.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:21"
+    },
+    {
+        "website": "dmmba.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 147,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/dmmba.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:22"
+    },
+    {
+        "website": "discourse.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 288,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/discourse.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:22"
+    },
+    {
+        "website": "doe.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 155,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/doe.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:22"
+    },
+    {
+        "website": "dost.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 139,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/dost.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:23"
+    },
+    {
+        "website": "doms.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 148,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/doms.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:23"
+    },
+    {
+        "website": "ecell.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 203,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ecell.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:24"
+    },
+    {
+        "website": "ctcs.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 719,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ctcs.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:24"
+    },
+    {
+        "website": "dsai.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 12,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/dsai.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:25"
+    },
+    {
+        "website": "e-verify.acservices.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 28,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/e-verify.acservices.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:25"
+    },
+    {
+        "website": "dirv.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 868,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/dirv.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:25"
+    },
+    {
+        "website": "eeservice.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 259,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/eeservice.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:25"
+    },
+    {
+        "website": "ed.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 277,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ed.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:25"
+    },
+    {
+        "website": "eescholars.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 275,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/eescholars.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:26"
+    },
+    {
+        "website": "discourse.onlinedegree.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 956,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/discourse.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:26"
+    },
+    {
+        "website": "ecvac.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 196,
+        "retries": 0,
+        "open_ports": [
+            21,
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ecvac.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:26"
+    },
+    {
+        "website": "enggunit.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 204,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/enggunit.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:27"
+    },
+    {
+        "website": "ers.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 189,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ers.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:27"
+    },
+    {
+        "website": "elearn.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 56,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/elearn.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:27"
+    },
+    {
+        "website": "euapp.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 158,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/euapp.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:28"
+    },
+    {
+        "website": "everify.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 151,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/everify.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:28"
+    },
+    {
+        "website": "fa.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 101,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/fa.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:28"
+    },
+    {
+        "website": "facapp.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 149,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/facapp.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:28"
+    },
+    {
+        "website": "events.respark.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 33,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/events.respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:29"
+    },
+    {
+        "website": "fasal.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 130,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/fasal.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:29"
+    },
+    {
+        "website": "gate.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 222,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/gate.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:30"
+    },
+    {
+        "website": "gateapp.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 219,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/gateapp.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:30"
+    },
+    {
+        "website": "ftp.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 872,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ftp.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:31"
+    },
+    {
+        "website": "fw.respark.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 36,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/fw.respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:31"
+    },
+    {
+        "website": "ge-uat.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 29,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ge-uat.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:32"
+    },
+    {
+        "website": "gurusetu.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 143,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/gurusetu.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:32"
+    },
+    {
+        "website": "giftshop.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 69,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/giftshop.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:33"
+    },
+    {
+        "website": "fees.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 906,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/fees.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:33"
+    },
+    {
+        "website": "hhc.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 164,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/hhc.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:33"
+    },
+    {
+        "website": "global.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 309,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/global.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:34"
+    },
+    {
+        "website": "hc-uat.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 32,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/hc-uat.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:34"
+    },
+    {
+        "website": "heritage.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 7,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/heritage.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:34"
+    },
+    {
+        "website": "home.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 168,
+        "retries": 0,
+        "open_ports": [
+            21,
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/home.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:35"
+    },
+    {
+        "website": "ext01ldap.iitm.ac.in",
+        "status_code": "Connection Refused",
+        "category": "Down",
+        "response_time_ms": 2081,
+        "retries": 0,
+        "open_ports": [
+            22
+        ],
+        "screenshot": "raw_screenshots/ext01ldap.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:35"
+    },
+    {
+        "website": "hospital.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 266,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/hospital.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:36"
+    },
+    {
+        "website": "hpce.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 211,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/hpce.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:36"
+    },
+    {
+        "website": "hosteldine.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 244,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/hosteldine.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:36"
+    },
+    {
+        "website": "hr-api-uat.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 114,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/hr-api-uat.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:36"
+    },
+    {
+        "website": "hr-uat.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 136,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/hr-uat.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:36"
+    },
+    {
+        "website": "hmis.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 628,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/hmis.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:37"
+    },
+    {
+        "website": "hss.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 213,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/hss.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:37"
+    },
+    {
+        "website": "htic.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 201,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/htic.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:37"
+    },
+    {
+        "website": "ibse.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 338,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ibse.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:38"
+    },
+    {
+        "website": "icandsr.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 249,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/icandsr.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:38"
+    },
+    {
+        "website": "icsrdev.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 309,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/icsrdev.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:39"
+    },
+    {
+        "website": "idp.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 343,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/idp.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:39"
+    },
+    {
+        "website": "hmis-app.iitm.ac.in",
+        "status_code": "Connection Error",
+        "category": "Down",
+        "response_time_ms": 3835,
+        "retries": 1,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/hmis-app.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:39"
+    },
+    {
+        "website": "iec.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 245,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/iec.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:40"
+    },
+    {
+        "website": "iinventiv.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 225,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/iinventiv.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:40"
+    },
+    {
+        "website": "iitmaa.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 237,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/iitmaa.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:41"
+    },
+    {
+        "website": "ia.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 638,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/ia.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:42"
+    },
+    {
+        "website": "ikollege.iitm.ac.in",
+        "status_code": 404,
+        "category": "Error",
+        "response_time_ms": 317,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ikollege.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:43"
+    },
+    {
+        "website": "energy.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 571,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/energy.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:44"
+    },
+    {
+        "website": "instispace.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 102,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/instispace.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:44"
+    },
+    {
+        "website": "internalrecruit.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 135,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/internalrecruit.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:44"
+    },
+    {
+        "website": "ioas.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 269,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ioas.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:47"
+    },
+    {
+        "website": "icsrpis.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 447,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/icsrpis.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:47"
+    },
+    {
+        "website": "iitmprwa.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 160,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/iitmprwa.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:48"
+    },
+    {
+        "website": "internship.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 464,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/internship.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:48"
+    },
+    {
+        "website": "inup.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 209,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/inup.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:48"
+    },
+    {
+        "website": "ip.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 233,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ip.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:49"
+    },
+    {
+        "website": "ioe.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 527,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ioe.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:49"
+    },
+    {
+        "website": "iproof-api.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 215,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/iproof-api.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:50"
+    },
+    {
+        "website": "impactstories.iitm.ac.in",
+        "status_code": 404,
+        "category": "Error",
+        "response_time_ms": 1487,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/impactstories.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:50"
+    },
+    {
+        "website": "isea-isap2026.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 110,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/isea-isap2026.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:52"
+    },
+    {
+        "website": "ishmt.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 196,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ishmt.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:52"
+    },
+    {
+        "website": "ivrf.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 88,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ivrf.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:52"
+    },
+    {
+        "website": "isroiitmcoe.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 290,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/isroiitmcoe.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:52"
+    },
+    {
+        "website": "jaljeevaninnovate.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 103,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/jaljeevaninnovate.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:52"
+    },
+    {
+        "website": "jam.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 144,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/jam.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:53"
+    },
+    {
+        "website": "jeeadv.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 57,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/jeeadv.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:53"
+    },
+    {
+        "website": "keepitflowing.alumni.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 58,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/keepitflowing.alumni.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:55"
+    },
+    {
+        "website": "kushal.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 421,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/kushal.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:56"
+    },
+    {
+        "website": "leap.respark.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 124,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/leap.respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:56"
+    },
+    {
+        "website": "mailx2.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 197,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/mailx2.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:57"
+    },
+    {
+        "website": "mailx4.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 268,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/mailx4.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:59"
+    },
+    {
+        "website": "kashitamil.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 861,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/kashitamil.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:59"
+    },
+    {
+        "website": "match.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 151,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/match.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:59"
+    },
+    {
+        "website": "math.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 74,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/math.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:01:59"
+    },
+    {
+        "website": "incubation.iitm.ac.in",
+        "status_code": 301,
+        "category": "Active",
+        "response_time_ms": 426,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/incubation.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:00"
+    },
+    {
+        "website": "maxrap.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 147,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/maxrap.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:01"
+    },
+    {
+        "website": "joyofgiving.alumni.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 719,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/joyofgiving.alumni.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:02"
+    },
+    {
+        "website": "mailx1.iitm.ac.in",
+        "status_code": "Connection Refused",
+        "category": "Down",
+        "response_time_ms": 2394,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            3306
+        ],
+        "screenshot": "raw_screenshots/mailx1.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:02"
+    },
+    {
+        "website": "mbsfacapp.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 110,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/mbsfacapp.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:03"
+    },
+    {
+        "website": "mcsc.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 140,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/mcsc.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:03"
+    },
+    {
+        "website": "mea.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 110,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/mea.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:03"
+    },
+    {
+        "website": "mech.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 131,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/mech.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:03"
+    },
+    {
+        "website": "mailx3.iitm.ac.in",
+        "status_code": "Connection Refused",
+        "category": "Down",
+        "response_time_ms": 2459,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            3306
+        ],
+        "screenshot": "raw_screenshots/mailx3.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:04"
+    },
+    {
+        "website": "mems.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 106,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/mems.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:04"
+    },
+    {
+        "website": "metallurgy.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 103,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/metallurgy.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:04"
+    },
+    {
+        "website": "moodle.respark.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 20,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/moodle.respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:06"
+    },
+    {
+        "website": "mme.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 118,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/mme.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:06"
+    },
+    {
+        "website": "mst.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 39,
+        "retries": 0,
+        "open_ports": [
+            21,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/mst.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:06"
+    },
+    {
+        "website": "ncaht.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 9,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ncaht.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:06"
+    },
+    {
+        "website": "mtechadm.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 143,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/mtechadm.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:07"
+    },
+    {
+        "website": "naksha.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 138,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/naksha.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:07"
+    },
+    {
+        "website": "nccrd.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 85,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/nccrd.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:07"
+    },
+    {
+        "website": "nctb.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 76,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/nctb.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:07"
+    },
+    {
+        "website": "nfapt.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 78,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/nfapt.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:08"
+    },
+    {
+        "website": "nipta.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 59,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/nipta.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:09"
+    },
+    {
+        "website": "nptelonlinecourses.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 78,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/nptelonlinecourses.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:10"
+    },
+    {
+        "website": "nptelonlinecourses1.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 85,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/nptelonlinecourses1.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:10"
+    },
+    {
+        "website": "nss.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 110,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/nss.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:10"
+    },
+    {
+        "website": "nsm.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 111,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/nsm.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:10"
+    },
+    {
+        "website": "ntcpwc.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 80,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ntcpwc.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:11"
+    },
+    {
+        "website": "odei.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 53,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/odei.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:11"
+    },
+    {
+        "website": "oir.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 10,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/oir.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:11"
+    },
+    {
+        "website": "paramshakti.iitm.ac.in",
+        "status_code": 301,
+        "category": "Active",
+        "response_time_ms": 144,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/paramshakti.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:13"
+    },
+    {
+        "website": "pallava.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 173,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/pallava.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:13"
+    },
+    {
+        "website": "oldcourses.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 133,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/oldcourses.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:13"
+    },
+    {
+        "website": "paramvidya.iitm.ac.in",
+        "status_code": 403,
+        "category": "Warning",
+        "response_time_ms": 199,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/paramvidya.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:14"
+    },
+    {
+        "website": "oirdss.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 827,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/oirdss.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:14"
+    },
+    {
+        "website": "ovd.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 177,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ovd.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:14"
+    },
+    {
+        "website": "parentconnect.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 98,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/parentconnect.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:15"
+    },
+    {
+        "website": "pbl.biotech.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 100,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/pbl.biotech.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:16"
+    },
+    {
+        "website": "photos.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 131,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/photos.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:17"
+    },
+    {
+        "website": "placements.onlinedegree.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 88,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/placements.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:17"
+    },
+    {
+        "website": "physics.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 115,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/physics.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:18"
+    },
+    {
+        "website": "onlinedegree.iitm.ac.in",
+        "status_code": 303,
+        "category": "Active",
+        "response_time_ms": 637,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:18"
+    },
+    {
+        "website": "posh.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 223,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/posh.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:19"
+    },
+    {
+        "website": "philanthropy.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 542,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/philanthropy.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:20"
+    },
+    {
+        "website": "quantum.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 88,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/quantum.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:20"
+    },
+    {
+        "website": "r2d2.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 86,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/r2d2.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:20"
+    },
+    {
+        "website": "ramoodle.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 141,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ramoodle.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:21"
+    },
+    {
+        "website": "rbcdsai.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 140,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/rbcdsai.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:21"
+    },
+    {
+        "website": "rbg.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 98,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/rbg.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:22"
+    },
+    {
+        "website": "recruit.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 171,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/recruit.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:22"
+    },
+    {
+        "website": "remote.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 197,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/remote.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:22"
+    },
+    {
+        "website": "redcap.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 144,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/redcap.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:24"
+    },
+    {
+        "website": "rekhicentersoh.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 163,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/rekhicentersoh.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:24"
+    },
+    {
+        "website": "resevaluation.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 536,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/resevaluation.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:24"
+    },
+    {
+        "website": "research.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 102,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/research.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:25"
+    },
+    {
+        "website": "nirmaan.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 496,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/nirmaan.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:25"
+    },
+    {
+        "website": "riselab.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 6,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/riselab.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:26"
+    },
+    {
+        "website": "rtis.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 110,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/rtis.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:28"
+    },
+    {
+        "website": "rutag.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 130,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/rutag.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:28"
+    },
+    {
+        "website": "saif.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 233,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/saif.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:28"
+    },
+    {
+        "website": "rpcrm.iitm.ac.in",
+        "status_code": 302,
+        "category": "Active",
+        "response_time_ms": 532,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/rpcrm.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:29"
+    },
+    {
+        "website": "scaleai.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 194,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/scaleai.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:29"
+    },
+    {
+        "website": "respark.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 551,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:30"
+    },
+    {
+        "website": "rpn.iitm.ac.in",
+        "status_code": 302,
+        "category": "Active",
+        "response_time_ms": 496,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/rpn.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:30"
+    },
+    {
+        "website": "seek.onlinedegree.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 151,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/seek.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:31"
+    },
+    {
+        "website": "semantic.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 99,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/semantic.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:32"
+    },
+    {
+        "website": "scoringtool.code.iitm.ac.in",
+        "status_code": 502,
+        "category": "Error",
+        "response_time_ms": 4020,
+        "retries": 1,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/scoringtool.code.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:32"
+    },
+    {
+        "website": "shaastramag-uat.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 38,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/shaastramag-uat.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:32"
+    },
+    {
+        "website": "shaastramag.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 14,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/shaastramag.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:32"
+    },
+    {
+        "website": "sites.ee.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 150,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/sites.ee.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:33"
+    },
+    {
+        "website": "skillsacademy.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 129,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/skillsacademy.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:34"
+    },
+    {
+        "website": "smart.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 93,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/smart.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:35"
+    },
+    {
+        "website": "placement.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 518,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/placement.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:36"
+    },
+    {
+        "website": "sports.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 240,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/sports.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:36"
+    },
+    {
+        "website": "sie.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 454,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/sie.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:38"
+    },
+    {
+        "website": "ssan.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 43,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/ssan.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:38"
+    },
+    {
+        "website": "sri.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 872,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/sri.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:38"
+    },
+    {
+        "website": "ssp.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 459,
+        "retries": 0,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/ssp.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:39"
+    },
+    {
+        "website": "student.onlinedegree.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 33,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/student.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:39"
+    },
+    {
+        "website": "sustainability.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 96,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/sustainability.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:39"
+    },
+    {
+        "website": "tcoe.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 71,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/tcoe.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:41"
+    },
+    {
+        "website": "tcf.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 170,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/tcf.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:41"
+    },
+    {
+        "website": "tenders.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 141,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/tenders.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:42"
+    },
+    {
+        "website": "tac.global.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 453,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/tac.global.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:43"
+    },
+    {
+        "website": "techkids.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 362,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/techkids.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:44"
+    },
+    {
+        "website": "tgh.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 99,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/tgh.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:45"
+    },
+    {
+        "website": "thearc.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 92,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/thearc.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:45"
+    },
+    {
+        "website": "tlc.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 115,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/tlc.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:45"
+    },
+    {
+        "website": "tech-talk.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 1011,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/tech-talk.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:46"
+    },
+    {
+        "website": "tlc2.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 8,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/tlc2.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:46"
+    },
+    {
+        "website": "touchlab.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 86,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/touchlab.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:47"
+    },
+    {
+        "website": "uay.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 135,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/uay.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:48"
+    },
+    {
+        "website": "uatv2.joyofgiving.alumni.iitm.ac.in",
+        "status_code": 401,
+        "category": "Warning",
+        "response_time_ms": 554,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/uatv2.joyofgiving.alumni.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:48"
+    },
+    {
+        "website": "tulais.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 72,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/tulais.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:48"
+    },
+    {
+        "website": "uat.joyofgiving.alumni.iitm.ac.in",
+        "status_code": 301,
+        "category": "Active",
+        "response_time_ms": 650,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/uat.joyofgiving.alumni.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:48"
+    },
+    {
+        "website": "ugadmissions.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 104,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/ugadmissions.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:50"
+    },
+    {
+        "website": "vanavani.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 74,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/vanavani.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:51"
+    },
+    {
+        "website": "vpn.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 8,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/vpn.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:51"
+    },
+    {
+        "website": "web.respark.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 71,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/web.respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:52"
+    },
+    {
+        "website": "web.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 69,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/web.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:52"
+    },
+    {
+        "website": "web.zmail.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 219,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/web.zmail.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:52"
+    },
+    {
+        "website": "icsris.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 145,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/icsris.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:54"
+    },
+    {
+        "website": "wmail.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 198,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            3306
+        ],
+        "screenshot": "raw_screenshots/wmail.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:54"
+    },
+    {
+        "website": "wli.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 564,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/wli.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:54"
+    },
+    {
+        "website": "webopac.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 139,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/webopac.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:55"
+    },
+    {
+        "website": "wfapi-uat.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 197,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/wfapi-uat.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:56"
+    },
+    {
+        "website": "wmtai.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 22,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/wmtai.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:56"
+    },
+    {
+        "website": "womensforum.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 112,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/womensforum.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:57"
+    },
+    {
+        "website": "workflow-api.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 207,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/workflow-api.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:58"
+    },
+    {
+        "website": "wmtech.code.iitm.ac.in",
+        "status_code": 302,
+        "category": "Active",
+        "response_time_ms": 450,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/wmtech.code.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:59"
+    },
+    {
+        "website": "workflow-elearn.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 81,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/workflow-elearn.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:59"
+    },
+    {
+        "website": "www.alumni.doms.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 71,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/www.alumni.doms.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:59"
+    },
+    {
+        "website": "wsai.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 498,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/wsai.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:02:59"
+    },
+    {
+        "website": "www.archive.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 34,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/www.archive.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:01"
+    },
+    {
+        "website": "www.backend.seek.onlinedegree.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 25,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/www.backend.seek.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:01"
+    },
+    {
+        "website": "www.biomimicry.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 35,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.biomimicry.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:02"
+    },
+    {
+        "website": "www.chennai36.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 61,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.chennai36.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:02"
+    },
+    {
+        "website": "www.ee.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 193,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.ee.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:03"
+    },
+    {
+        "website": "www.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 99,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/www.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:04"
+    },
+    {
+        "website": "www.incubation.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 65,
+        "retries": 0,
+        "open_ports": [
+            80
+        ],
+        "screenshot": "raw_screenshots/www.incubation.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:05"
+    },
+    {
+        "website": "www.leap.respark.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 32,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.leap.respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:05"
+    },
+    {
+        "website": "www.ctcs.iitm.ac.in",
+        "status_code": 301,
+        "category": "Active",
+        "response_time_ms": 551,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.ctcs.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:06"
+    },
+    {
+        "website": "www.respark.iitm.ac.in",
+        "status_code": 403,
+        "category": "Warning",
+        "response_time_ms": 525,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.respark.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:07"
+    },
+    {
+        "website": "www.shaastramag.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 61,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.shaastramag.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:08"
+    },
+    {
+        "website": "www.tcoe.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 66,
+        "retries": 0,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/www.tcoe.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:09"
+    },
+    {
+        "website": "www.kashitamil.iitm.ac.in",
+        "status_code": 503,
+        "category": "Error",
+        "response_time_ms": 4750,
+        "retries": 1,
+        "open_ports": [
+            443
+        ],
+        "screenshot": "raw_screenshots/www.kashitamil.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:10"
+    },
+    {
+        "website": "www.techkids.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 301,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.techkids.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:10"
+    },
+    {
+        "website": "xtic.iitm.ac.in",
+        "status_code": "SSL Certificate Warning",
+        "category": "Warning",
+        "response_time_ms": 93,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "screenshot": "raw_screenshots/xtic.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:11"
+    },
+    {
+        "website": "www.onlinedegree.iitm.ac.in",
+        "status_code": 303,
+        "category": "Active",
+        "response_time_ms": 500,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/www.onlinedegree.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:12"
+    },
+    {
+        "website": "yaari.iitm.ac.in",
+        "status_code": "DNS Resolution Failure",
+        "category": "Down",
+        "response_time_ms": 62,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/yaari.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:12"
+    },
+    {
+        "website": "smtp.iitm.ac.in",
+        "status_code": "Timeout",
+        "category": "Down",
+        "response_time_ms": 18036,
+        "retries": 1,
+        "open_ports": [
+            22
+        ],
+        "screenshot": "raw_screenshots/smtp.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:12"
+    },
+    {
+        "website": "smtp1.iitm.ac.in",
+        "status_code": "Timeout",
+        "category": "Down",
+        "response_time_ms": 18031,
+        "retries": 1,
+        "open_ports": [
+            22
+        ],
+        "screenshot": "raw_screenshots/smtp1.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:12"
+    },
+    {
+        "website": "smtp2.iitm.ac.in",
+        "status_code": "Timeout",
+        "category": "Down",
+        "response_time_ms": 18012,
+        "retries": 1,
+        "open_ports": [
+            22
+        ],
+        "screenshot": "raw_screenshots/smtp2.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:12"
+    },
+    {
+        "website": "zmail.iitm.ac.in",
+        "status_code": 200,
+        "category": "Active",
+        "response_time_ms": 242,
+        "retries": 0,
+        "open_ports": [
+            22,
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/zmail.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:12"
+    },
+    {
+        "website": "yrf.iitm.ac.in",
+        "status_code": 403,
+        "category": "Warning",
+        "response_time_ms": 416,
+        "retries": 0,
+        "open_ports": [
+            80,
+            443
+        ],
+        "screenshot": "raw_screenshots/yrf.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:12"
+    },
+    {
+        "website": "vanakkamkashi.iitm.ac.in",
+        "status_code": "Timeout",
+        "category": "Down",
+        "response_time_ms": 18038,
+        "retries": 1,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/vanakkamkashi.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:27"
+    },
+    {
+        "website": "www.vanakkamkashi.iitm.ac.in",
+        "status_code": "Timeout",
+        "category": "Down",
+        "response_time_ms": 18037,
+        "retries": 1,
+        "open_ports": [],
+        "screenshot": "raw_screenshots/www.vanakkamkashi.iitm.ac.in.png",
+        "last_checked": "2026-06-12 16:03:47"
+    }
+]
