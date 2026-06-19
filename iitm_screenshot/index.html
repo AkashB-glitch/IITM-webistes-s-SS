@@ -1,154 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IITM Website Health Monitoring Dashboard - TV Mode</title>
     <style>
         /* CSS resets and base styles */
-        body, html { 
-            margin: 0; padding: 0; height: 100%; 
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
-            background-color: #0f172a; color: #f8fafc; 
-            overflow: hidden; /* Prevent scrolling in TV mode */
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            overflow: hidden;
+            /* Prevent scrolling in TV mode */
         }
-        * { box-sizing: border-box; }
-        
-        .dashboard { 
-            display: flex; flex-direction: column; 
-            height: 100vh; padding: 1.5vw; 
+
+        * {
+            box-sizing: border-box;
         }
-        
+
+        .dashboard {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            padding: 1.5vw;
+        }
+
         /* Header */
-        .header { 
-            display: flex; justify-content: space-between; align-items: center; 
-            border-bottom: 2px solid #334155; padding-bottom: 1vh; margin-bottom: 2vh; 
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 1vh;
+            margin-bottom: 2vh;
         }
-        .header-left { display: flex; flex-direction: column; }
-        .header-title { 
-            font-size: 2.2vw; font-weight: bold; color: #e2e8f0; 
-            margin: 0; text-transform: uppercase; letter-spacing: 2px;
+
+        .header-left {
+            display: flex;
+            flex-direction: column;
         }
-        .header-subtitle { 
-            color: #94a3b8; font-size: 1.2vw; margin-top: 5px; 
-            text-transform: uppercase; letter-spacing: 1px;
+
+        .header-title {
+            font-size: 2.2vw;
+            font-weight: bold;
+            color: #e2e8f0;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
-        .header-time { 
-            font-size: 1.2vw; color: #94a3b8; text-align: right; 
+
+        .header-subtitle {
+            color: #94a3b8;
+            font-size: 1.2vw;
+            margin-top: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
-        .header-time .clock { 
-            font-size: 2.5vw; color: #38bdf8; font-weight: bold; margin-bottom: 5px; 
+
+        .header-time {
+            font-size: 1.2vw;
+            color: #94a3b8;
+            text-align: right;
+        }
+
+        .header-time .clock {
+            font-size: 2.5vw;
+            color: #38bdf8;
+            font-weight: bold;
+            margin-bottom: 5px;
             font-variant-numeric: tabular-nums;
         }
 
         /* Config Panel (Hidden by default, hover to show) */
         .config-panel {
-            position: absolute; top: 1.5vw; right: 1.5vw;
-            background: rgba(15, 23, 42, 0.95); padding: 15px; border-radius: 10px; 
-            border: 1px solid #334155; opacity: 0; transition: opacity 0.3s; z-index: 100;
+            position: absolute;
+            top: 1.5vw;
+            right: 1.5vw;
+            background: rgba(15, 23, 42, 0.95);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #334155;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 100;
         }
-        .header:hover .config-panel, .config-panel:hover { opacity: 1; }
-        .config-panel select { 
-            background: #1e293b; color: #fff; border: 1px solid #475569; 
-            padding: 8px 12px; border-radius: 5px; font-size: 1rem; 
-            cursor: pointer; outline: none; 
+
+        .header:hover .config-panel,
+        .config-panel:hover {
+            opacity: 1;
+        }
+
+        .config-panel select {
+            background: #1e293b;
+            color: #fff;
+            border: 1px solid #475569;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            outline: none;
         }
 
         /* Stats Panel */
-        .stats-panel { 
-            display: flex; justify-content: space-between; 
-            margin-bottom: 2vh; gap: 1.5vw; 
+        .stats-panel {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2vh;
+            gap: 1.5vw;
         }
-        .stat-box { 
-            flex: 1; background: #1e293b; border-radius: 12px; 
-            padding: 1.5vh 1vw; text-align: center; 
-            border-top: 5px solid #475569; box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
+
+        .stat-box {
+            flex: 1;
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 1.5vh 1vw;
+            text-align: center;
+            border-top: 5px solid #475569;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
         }
-        .stat-title { 
-            font-size: 1.2vw; color: #94a3b8; text-transform: uppercase; 
-            font-weight: 600; margin-bottom: 1vh; 
+
+        .stat-title {
+            font-size: 1.2vw;
+            color: #94a3b8;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 1vh;
         }
-        .stat-value { font-size: 2.8vw; font-weight: bold; }
-        
-        .stat-box.total { border-color: #3b82f6; } .stat-box.total .stat-value { color: #60a5fa; }
-        .stat-box.active { border-color: #22c55e; } .stat-box.active .stat-value { color: #4ade80; }
-        .stat-box.warning { border-color: #eab308; } .stat-box.warning .stat-value { color: #facc15; }
-        .stat-box.error { border-color: #ef4444; } .stat-box.error .stat-value { color: #f87171; }
-        .stat-box.down { border-color: #64748b; } .stat-box.down .stat-value { color: #94a3b8; }
+
+        .stat-value {
+            font-size: 2.8vw;
+            font-weight: bold;
+        }
+
+        .stat-box.total {
+            border-color: #3b82f6;
+        }
+
+        .stat-box.total .stat-value {
+            color: #60a5fa;
+        }
+
+        .stat-box.active {
+            border-color: #22c55e;
+        }
+
+        .stat-box.active .stat-value {
+            color: #4ade80;
+        }
+
+        .stat-box.warning {
+            border-color: #eab308;
+        }
+
+        .stat-box.warning .stat-value {
+            color: #facc15;
+        }
+
+        .stat-box.error {
+            border-color: #ef4444;
+        }
+
+        .stat-box.error .stat-value {
+            color: #f87171;
+        }
+
+        .stat-box.down {
+            border-color: #64748b;
+        }
+
+        .stat-box.down .stat-value {
+            color: #94a3b8;
+        }
 
         /* Grid Container */
-        .grid-container { 
-            flex: 1; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; 
-            gap: 1.5vw; transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; 
-            opacity: 1; transform: translateX(0); min-height: 0;
+        .grid-container {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 1.5vw;
+            transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+            opacity: 1;
+            transform: translateX(0);
+            min-height: 0;
         }
-        
+
         /* Animations */
-        .slide-out { opacity: 0; transform: translateX(-50px) scale(0.98); }
-        .slide-in { opacity: 1; transform: translateX(0) scale(1); }
-        .slide-prepare { opacity: 0; transform: translateX(50px) scale(0.98); transition: none; }
+        .slide-out {
+            opacity: 0;
+            transform: translateX(-50px) scale(0.98);
+        }
+
+        .slide-in {
+            opacity: 1;
+            transform: translateX(0) scale(1);
+        }
+
+        .slide-prepare {
+            opacity: 0;
+            transform: translateX(50px) scale(0.98);
+            transition: none;
+        }
 
         /* Cards */
-        .card { 
-            background: #1e293b; border-radius: 16px; overflow: hidden; 
-            display: flex; flex-direction: column; position: relative; 
-            border: 3px solid transparent; box-shadow: 0 10px 25px rgba(0,0,0,0.5); 
+        .card {
+            background: #1e293b;
+            border-radius: 16px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            border: 3px solid transparent;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
         }
-        .card-active { border-color: #22c55e; }
-        .card-warning { border-color: #eab308; }
-        .card-error { border-color: #ef4444; }
-        .card-down { border-color: #475569; }
-        .card-restricted { border-color: #a855f7; }
 
-        .card-img-container { 
-            height: 55%; width: 100%; background: #0f172a; 
-            border-bottom: 2px solid #334155; position: relative;
+        .card-active {
+            border-color: #22c55e;
         }
-        .card-img { 
-            width: 100%; height: 100%; object-fit: cover; 
+
+        .card-warning {
+            border-color: #eab308;
+        }
+
+        .card-error {
+            border-color: #ef4444;
+        }
+
+        .card-down {
+            border-color: #475569;
+        }
+
+        .card-restricted {
+            border-color: #a855f7;
+        }
+
+        .card-img-container {
+            height: 55%;
+            width: 100%;
+            background: #0f172a;
+            border-bottom: 2px solid #334155;
+            position: relative;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
             object-position: top center;
         }
-        .no-img { 
-            width: 100%; height: 100%; display: flex; flex-direction: column;
-            align-items: center; justify-content: center; color: #475569; 
-        }
-        .no-img svg { width: 4vw; height: 4vw; margin-bottom: 10px; }
 
-        .card-body { 
-            padding: 1.5vh 1.5vw; flex: 1; display: flex; 
-            flex-direction: column; justify-content: space-between; 
+        .no-img {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #475569;
         }
-        .card-header { 
-            display: flex; justify-content: space-between; align-items: flex-start; 
-            margin-bottom: 1vh; 
-        }
-        .card-title { 
-            font-size: 1.6vw; font-weight: bold; margin: 0; color: #f8fafc; 
-            word-break: break-all; max-height: 4.8vw; overflow: hidden;
-        }
-        .card-status { 
-            font-size: 1vw; font-weight: bold; padding: 0.5vh 1vw; 
-            border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;
-            white-space: nowrap; margin-left: 1vw;
-        }
-        
-        .status-active { background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); }
-        .status-warning { background: rgba(234, 179, 8, 0.2); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.3); }
-        .status-error { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
-        .status-down { background: rgba(100, 116, 139, 0.2); color: #94a3b8; border: 1px solid rgba(100, 116, 139, 0.3); }
-        .status-restricted { background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
 
-        .card-meta { 
-            display: flex; gap: 0.8vw; flex-wrap: wrap; margin-top: auto; 
+        .no-img svg {
+            width: 4vw;
+            height: 4vw;
+            margin-bottom: 10px;
         }
-        .badge { 
-            background: #334155; padding: 0.6vh 0.8vw; border-radius: 8px; 
-            font-size: 1vw; color: #cbd5e1; display: flex; align-items: center; gap: 0.4vw;
-            border: 1px solid #475569; font-weight: 500;
+
+        .card-body {
+            padding: 1.5vh 1.5vw;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
-        
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1vh;
+        }
+
+        .card-title {
+            font-size: 1.6vw;
+            font-weight: bold;
+            margin: 0;
+            color: #f8fafc;
+            word-break: break-all;
+            max-height: 4.8vw;
+            overflow: hidden;
+        }
+
+        .card-status {
+            font-size: 1vw;
+            font-weight: bold;
+            padding: 0.5vh 1vw;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            white-space: nowrap;
+            margin-left: 1vw;
+        }
+
+        .status-active {
+            background: rgba(34, 197, 94, 0.2);
+            color: #4ade80;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+
+        .status-warning {
+            background: rgba(234, 179, 8, 0.2);
+            color: #facc15;
+            border: 1px solid rgba(234, 179, 8, 0.3);
+        }
+
+        .status-error {
+            background: rgba(239, 68, 68, 0.2);
+            color: #f87171;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .status-down {
+            background: rgba(100, 116, 139, 0.2);
+            color: #94a3b8;
+            border: 1px solid rgba(100, 116, 139, 0.3);
+        }
+
+        .status-restricted {
+            background: rgba(168, 85, 247, 0.2);
+            color: #c084fc;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+        }
+
+        .card-meta {
+            display: flex;
+            gap: 0.8vw;
+            flex-wrap: wrap;
+            margin-top: auto;
+        }
+
+        .badge {
+            background: #334155;
+            padding: 0.6vh 0.8vw;
+            border-radius: 8px;
+            font-size: 1vw;
+            color: #cbd5e1;
+            display: flex;
+            align-items: center;
+            gap: 0.4vw;
+            border: 1px solid #475569;
+            font-weight: 500;
+        }
     </style>
 </head>
+
 <body>
     <div class="dashboard">
         <div class="header">
@@ -156,6 +365,19 @@
                 <h1 class="header-title">IITM Website Health Monitoring Dashboard</h1>
                 <div class="header-subtitle">Network Operations Center - TV Display Mode</div>
             </div>
+
+            <div
+                style="display: flex; align-items: center; gap: 1vw; background: rgba(30, 41, 59, 0.8); padding: 0.8vh 1vw; border-radius: 10px; border: 1px solid #334155; margin-left: auto; margin-right: 2vw;">
+                <div style="text-align: right;">
+                    <div style="font-size: 1vw; font-weight: bold; color: #38bdf8; text-transform: uppercase;">Report an
+                        Issue</div>
+                    <div style="font-size: 0.8vw; color: #94a3b8;">Scan to open Google Form</div>
+                </div>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://docs.google.com/forms/d/e/1FAIpQLSdDW4VzkVHBL5XnWh4MyJNwWSI6cJaenIT5eQWxFfwgocZaaQ/viewform"
+                    alt="Report QR"
+                    style="width: 3.5vw; height: 3.5vw; border-radius: 5px; background: white; padding: 0.2vw;">
+            </div>
+
             <div class="header-time">
                 <div class="clock" id="clock">00:00:00</div>
                 <div id="last-scan">Last Scan: Loading...</div>
@@ -195,7 +417,8 @@
 
         <div class="grid-container" id="grid-container">
             <!-- Loading Indicator -->
-            <div style="grid-column: span 2; display: flex; justify-content: center; align-items: center; font-size: 2vw; color: #64748b; height: 100%;">
+            <div
+                style="grid-column: span 2; display: flex; justify-content: center; align-items: center; font-size: 2vw; color: #64748b; height: 100%;">
                 Initializing Dashboard Data...
             </div>
         </div>
@@ -227,11 +450,11 @@
                 const response = await fetch(`website_health.json?t=${new Date().getTime()}`);
                 if (!response.ok) throw new Error('Network response was not ok');
                 const data = await response.json();
-                
+
                 const now = new Date();
                 const lastScanEl = document.getElementById('last-scan');
                 lastScanEl.innerText = `Last Scan: ${now.toLocaleDateString()} ${now.toLocaleTimeString('en-US', { hour12: false })}`;
-                
+
                 processData(data);
             } catch (error) {
                 console.error("Error fetching health data:", error);
@@ -240,7 +463,7 @@
 
         function processData(data) {
             allData = data;
-            
+
             // Calculate stats
             let stats = { total: data.length, active: 0, warning: 0, error: 0, down: 0, restricted: 0 };
             data.forEach(item => {
@@ -249,7 +472,7 @@
                 else if (cat === 'Warning') stats.warning++;
                 else if (cat === 'Error') stats.error++;
                 else if (cat === 'Down') stats.down++;
-                else if (cat === 'Restricted') stats.restricted++; 
+                else if (cat === 'Restricted') stats.restricted++;
             });
 
             document.getElementById('stat-total').innerText = stats.total;
@@ -265,9 +488,9 @@
         function applyModeFilter() {
             // Priority: Error(1), Down(2), Warning(3), Restricted(4), Active(5)
             const priority = { 'Error': 1, 'Down': 2, 'Warning': 3, 'Restricted': 4, 'Active': 5 };
-            
+
             let filtered = [...allData];
-            
+
             if (currentMode === 'A') {
                 // Sequential all, prioritized by issues
                 filtered.sort((a, b) => {
@@ -287,13 +510,13 @@
             }
 
             displayData = filtered;
-            
+
             if (currentIndex >= displayData.length) {
                 currentIndex = 0;
             }
-            
-            renderCurrentSlide(true); 
-            
+
+            renderCurrentSlide(true);
+
             if (rotationTimer) clearInterval(rotationTimer);
             if (displayData.length > 4) {
                 rotationTimer = setInterval(nextSlide, ROTATION_INTERVAL);
@@ -304,7 +527,7 @@
             const cat = item.category || 'Unknown';
             let cardClass = 'card-down';
             let statusClass = 'status-down';
-            
+
             if (cat === 'Active') { cardClass = 'card-active'; statusClass = 'status-active'; }
             else if (cat === 'Warning') { cardClass = 'card-warning'; statusClass = 'status-warning'; }
             else if (cat === 'Error') { cardClass = 'card-error'; statusClass = 'status-error'; }
@@ -352,7 +575,7 @@
 
         function renderCurrentSlide(immediate = false) {
             const container = document.getElementById('grid-container');
-            
+
             const doRender = () => {
                 let html = '';
                 if (displayData.length === 0) {
@@ -364,17 +587,17 @@
                         } else if (displayData.length > 4) {
                             html += createCardHtml(displayData[(currentIndex + i) % displayData.length]);
                         } else {
-                            html += '<div></div>'; 
+                            html += '<div></div>';
                         }
                     }
                 }
-                
+
                 container.classList.remove('slide-out', 'slide-in');
                 container.classList.add('slide-prepare');
                 container.innerHTML = html;
-                
+
                 void container.offsetWidth;
-                
+
                 container.classList.remove('slide-prepare');
                 container.classList.add('slide-in');
             };
@@ -389,8 +612,8 @@
         }
 
         function nextSlide() {
-            if (displayData.length <= 4) return; 
-            
+            if (displayData.length <= 4) return;
+
             currentIndex += 4;
             if (currentIndex >= displayData.length) {
                 currentIndex = 0;
@@ -411,4 +634,5 @@
 
     </script>
 </body>
+
 </html>
