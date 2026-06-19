@@ -139,8 +139,8 @@ function filterByPort() {{
 list_rows = ""
 grid_cards = ""
 
-# Sort data so Active websites with screenshots appear first (highest confidence score first)
-health_data.sort(key=lambda x: x.get("confidence_score", 0), reverse=True)
+# Sort data purely alphabetically by website name
+health_data.sort(key=lambda x: x.get("website", "").lower())
 
 for item in health_data:
     website = item.get("website", "")
@@ -267,7 +267,7 @@ html += dropdowns_html + f"""
 </html>
 """
 
-output_html = "index.html"
+output_html = "admin_dashboard.html"
 with open(output_html, "w", encoding="utf-8") as f:
     f.write(html)
 

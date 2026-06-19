@@ -43,12 +43,12 @@ def check_http_sync(url):
         except Exception as e:
             return None, url, None, False, False, str(e)
 
-    status_code, final_url, elapsed, ssl_warning, ssl_available, err = do_req(5)
+    status_code, final_url, elapsed, ssl_warning, ssl_available, err = do_req(15)
     retries = 0
     if err or status_code in [500, 502, 503, 504] or status_code is None:
         retries = 1
         time.sleep(3)
-        status_code, final_url, elapsed, ssl_warning, ssl_available, err = do_req(10)
+        status_code, final_url, elapsed, ssl_warning, ssl_available, err = do_req(30)
         
     return status_code, final_url, elapsed, ssl_warning, ssl_available, err, retries
 
@@ -76,10 +76,8 @@ async def capture_site(context, url, i, total, output_folder, semaphore):
         except socket.gaierror:
             dns_resolved = False
 
-        # 2. Port Check
-        port_tasks = [check_port(domain, p) for p in [80, 443, 8080, 8443]]
-        open_ports_raw = await asyncio.gather(*port_tasks)
-        open_ports = [p for p in open_ports_raw if p is not None]
+        # 2. Port Check (Disabled to prevent firewall IP bans)
+        open_ports = []
 
         # 3. HTTP Check
         if dns_resolved:
@@ -92,7 +90,7 @@ async def capture_site(context, url, i, total, output_folder, semaphore):
         screenshot_success = False
         screenshot_path = ""
         
-        if dns_resolved and (len(open_ports) > 0 or status_code is not None):
+        if dns_resolved:
             page = await context.new_page()
             await Stealth().apply_stealth_async(page)
             try:
@@ -138,7 +136,7 @@ async def capture_site(context, url, i, total, output_folder, semaphore):
                     
                 try:
                     await page.screenshot(path=save_path, full_page=False)
-                    if os.path.exists(save_path) and os.path.getsize(save_path) > 0:
+                    if os.path.exists(save_path):
                         screenshot_success = True
                         screenshot_path = f"{os.path.basename(output_folder)}/{clean_name}"
                 except:
@@ -157,6 +155,9 @@ async def capture_site(context, url, i, total, output_folder, semaphore):
         category = "Unknown"
         is_down = False
         
+        error_titles = ["404", "not found", "error", "access denied", "forbidden", "502", "503", "unavailable"]
+        has_healthy_title = page_title and not any(e in page_title.lower() for e in error_titles)
+        
         if not dns_resolved:
             is_down = True
         elif len(open_ports) == 0 and status_code is None:
@@ -164,22 +165,27 @@ async def capture_site(context, url, i, total, output_folder, semaphore):
         elif err and any(e in err.lower() for e in ["refused", "unreachable", "timeout"]):
             if not screenshot_success and not page_title:
                 is_down = True
-        elif status_code is None and not page_title:
+        elif status_code is None and not screenshot_success:
             is_down = True
             
         if is_down:
             category = "Down"
         elif status_code in [404, 410, 500, 502, 503, 504]:
-            category = "Error"
+            if screenshot_success and has_healthy_title:
+                category = "Active"
+            else:
+                category = "Error"
         elif status_code in [401, 403]:
-            if screenshot_success or page_title:
+            if screenshot_success and has_healthy_title:
                 category = "Active"
             else:
                 category = "Restricted"
         elif status_code in [200, 201, 204, 301, 302, 307, 308]:
             category = "Active"
-        elif screenshot_success and page_title:
+        elif screenshot_success and has_healthy_title:
             category = "Active"
+        elif screenshot_success:
+            category = "Warning"
         elif ssl_available and not ssl_warning and len(open_ports) > 0:
             category = "Active"
         else:
