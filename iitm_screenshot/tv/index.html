@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IITM Website Health Monitoring Dashboard - TV Mode</title>
+    <style>
+        /* CSS resets and base styles */
+        body, html { 
+            margin: 0; padding: 0; height: 100%; 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            background-color: #0f172a; color: #f8fafc; 
+            overflow: hidden; /* Prevent scrolling in TV mode */
+        }
+        * { box-sizing: border-box; }
+        
+        .dashboard { 
+            display: flex; flex-direction: column; 
+            height: 100vh; padding: 1.5vw; 
+        }
+        
+        /* Header */
+        .header { 
+            display: flex; justify-content: space-between; align-items: center; 
+            border-bottom: 2px solid #334155; padding-bottom: 1vh; margin-bottom: 2vh; 
+        }
+        .header-left { display: flex; flex-direction: column; }
+        .header-title { 
+            font-size: 2.2vw; font-weight: bold; color: #e2e8f0; 
+            margin: 0; text-transform: uppercase; letter-spacing: 2px;
+        }
+        .header-subtitle { 
+            color: #94a3b8; font-size: 1.2vw; margin-top: 5px; 
+            text-transform: uppercase; letter-spacing: 1px;
+        }
+        .header-time { 
+            font-size: 1.2vw; color: #94a3b8; text-align: right; 
+        }
+        .header-time .clock { 
+            font-size: 2.5vw; color: #38bdf8; font-weight: bold; margin-bottom: 5px; 
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* Config Panel (Hidden by default, hover to show) */
+        .config-panel {
+            position: absolute; top: 1.5vw; right: 1.5vw;
+            background: rgba(15, 23, 42, 0.95); padding: 15px; border-radius: 10px; 
+            border: 1px solid #334155; opacity: 0; transition: opacity 0.3s; z-index: 100;
+        }
+        .header:hover .config-panel, .config-panel:hover { opacity: 1; }
+        .config-panel select { 
+            background: #1e293b; color: #fff; border: 1px solid #475569; 
+            padding: 8px 12px; border-radius: 5px; font-size: 1rem; 
+            cursor: pointer; outline: none; 
+        }
+
+        /* Stats Panel */
+        .stats-panel { 
+            display: flex; justify-content: space-between; 
+            margin-bottom: 2vh; gap: 1.5vw; 
+        }
+        .stat-box { 
+            flex: 1; background: #1e293b; border-radius: 12px; 
+            padding: 1.5vh 1vw; text-align: center; 
+            border-top: 5px solid #475569; box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
+        }
+        .stat-title { 
+            font-size: 1.2vw; color: #94a3b8; text-transform: uppercase; 
+            font-weight: 600; margin-bottom: 1vh; 
+        }
+        .stat-value { font-size: 2.8vw; font-weight: bold; }
+        
+        .stat-box.total { border-color: #3b82f6; } .stat-box.total .stat-value { color: #60a5fa; }
+        .stat-box.active { border-color: #22c55e; } .stat-box.active .stat-value { color: #4ade80; }
+        .stat-box.warning { border-color: #eab308; } .stat-box.warning .stat-value { color: #facc15; }
+        .stat-box.error { border-color: #ef4444; } .stat-box.error .stat-value { color: #f87171; }
+        .stat-box.down { border-color: #64748b; } .stat-box.down .stat-value { color: #94a3b8; }
+
+        /* Grid Container */
+        .grid-container { 
+            flex: 1; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; 
+            gap: 1.5vw; transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; 
+            opacity: 1; transform: translateX(0); min-height: 0;
+        }
+        
+        /* Animations */
+        .slide-out { opacity: 0; transform: translateX(-50px) scale(0.98); }
+        .slide-in { opacity: 1; transform: translateX(0) scale(1); }
+        .slide-prepare { opacity: 0; transform: translateX(50px) scale(0.98); transition: none; }
+
+        /* Cards */
+        .card { 
+            background: #1e293b; border-radius: 16px; overflow: hidden; 
+            display: flex; flex-direction: column; position: relative; 
+            border: 3px solid transparent; box-shadow: 0 10px 25px rgba(0,0,0,0.5); 
+        }
+        .card-active { border-color: #22c55e; }
+        .card-warning { border-color: #eab308; }
+        .card-error { border-color: #ef4444; }
+        .card-down { border-color: #475569; }
+        .card-restricted { border-color: #a855f7; }
+
+        .card-img-container { 
+            height: 55%; width: 100%; background: #0f172a; 
+            border-bottom: 2px solid #334155; position: relative;
+        }
+        .card-img { 
+            width: 100%; height: 100%; object-fit: cover; 
+            object-position: top center;
+        }
+        .no-img { 
+            width: 100%; height: 100%; display: flex; flex-direction: column;
+            align-items: center; justify-content: center; color: #475569; 
+        }
+        .no-img svg { width: 4vw; height: 4vw; margin-bottom: 10px; }
+
+        .card-body { 
+            padding: 1.5vh 1.5vw; flex: 1; display: flex; 
+            flex-direction: column; justify-content: space-between; 
+        }
+        .card-header { 
+            display: flex; justify-content: space-between; align-items: flex-start; 
+            margin-bottom: 1vh; 
+        }
+        .card-title { 
+            font-size: 1.6vw; font-weight: bold; margin: 0; color: #f8fafc; 
+            word-break: break-all; max-height: 4.8vw; overflow: hidden;
+        }
+        .card-status { 
+            font-size: 1vw; font-weight: bold; padding: 0.5vh 1vw; 
+            border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;
+            white-space: nowrap; margin-left: 1vw;
+        }
+        
+        .status-active { background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); }
+        .status-warning { background: rgba(234, 179, 8, 0.2); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.3); }
+        .status-error { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+        .status-down { background: rgba(100, 116, 139, 0.2); color: #94a3b8; border: 1px solid rgba(100, 116, 139, 0.3); }
+        .status-restricted { background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+
+        .card-meta { 
+            display: flex; gap: 0.8vw; flex-wrap: wrap; margin-top: auto; 
+        }
+        .badge { 
+            background: #334155; padding: 0.6vh 0.8vw; border-radius: 8px; 
+            font-size: 1vw; color: #cbd5e1; display: flex; align-items: center; gap: 0.4vw;
+            border: 1px solid #475569; font-weight: 500;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <div class="header-left">
+                <h1 class="header-title">IITM Website Health Monitoring Dashboard</h1>
+                <div class="header-subtitle">Network Operations Center - TV Display Mode</div>
+            </div>
+            <div class="header-time">
+                <div class="clock" id="clock">00:00:00</div>
+                <div id="last-scan">Last Scan: Loading...</div>
+            </div>
+            <div class="config-panel">
+                <select id="mode-select" title="Display Mode">
+                    <option value="A">Mode A: Sequential (All)</option>
+                    <option value="B">Mode B: Issues Only (Warn/Err/Down)</option>
+                    <option value="C">Mode C: Active Only</option>
+                    <option value="D">Mode D: Random</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats-panel">
+            <div class="stat-box total">
+                <div class="stat-title">Total Websites</div>
+                <div class="stat-value" id="stat-total">-</div>
+            </div>
+            <div class="stat-box active">
+                <div class="stat-title">Active</div>
+                <div class="stat-value" id="stat-active">-</div>
+            </div>
+            <div class="stat-box warning">
+                <div class="stat-title">Warning</div>
+                <div class="stat-value" id="stat-warning">-</div>
+            </div>
+            <div class="stat-box error">
+                <div class="stat-title">Error</div>
+                <div class="stat-value" id="stat-error">-</div>
+            </div>
+            <div class="stat-box down">
+                <div class="stat-title">Down</div>
+                <div class="stat-value" id="stat-down">-</div>
+            </div>
+        </div>
+
+        <div class="grid-container" id="grid-container">
+            <!-- Loading Indicator -->
+            <div style="grid-column: span 2; display: flex; justify-content: center; align-items: center; font-size: 2vw; color: #64748b; height: 100%;">
+                Initializing Dashboard Data...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let allData = [];
+        let displayData = [];
+        let currentIndex = 0;
+        let rotationTimer = null;
+        let refreshTimer = null;
+        let currentMode = 'A';
+        const ROTATION_INTERVAL = 10000; // 10 seconds
+        const REFRESH_INTERVAL = 300000; // 5 minutes
+
+        // Clock 
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').innerText = now.toLocaleTimeString('en-US', { hour12: false });
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // Data Fetching
+        async function fetchHealthData() {
+            try {
+                // Fetch from parent directory since this file is in /tv/
+                const response = await fetch(`../website_health.json?t=${new Date().getTime()}`);
+                if (!response.ok) throw new Error('Network response was not ok');
+                const data = await response.json();
+                
+                const now = new Date();
+                const lastScanEl = document.getElementById('last-scan');
+                lastScanEl.innerText = `Last Scan: ${now.toLocaleDateString()} ${now.toLocaleTimeString('en-US', { hour12: false })}`;
+                
+                processData(data);
+            } catch (error) {
+                console.error("Error fetching health data:", error);
+            }
+        }
+
+        function processData(data) {
+            allData = data;
+            
+            // Calculate stats
+            let stats = { total: data.length, active: 0, warning: 0, error: 0, down: 0, restricted: 0 };
+            data.forEach(item => {
+                const cat = item.category || 'Unknown';
+                if (cat === 'Active') stats.active++;
+                else if (cat === 'Warning') stats.warning++;
+                else if (cat === 'Error') stats.error++;
+                else if (cat === 'Down') stats.down++;
+                else if (cat === 'Restricted') stats.restricted++; 
+            });
+
+            document.getElementById('stat-total').innerText = stats.total;
+            // Include Restricted in active stats just for top-level counting
+            document.getElementById('stat-active').innerText = stats.active + stats.restricted;
+            document.getElementById('stat-warning').innerText = stats.warning;
+            document.getElementById('stat-error').innerText = stats.error;
+            document.getElementById('stat-down').innerText = stats.down;
+
+            applyModeFilter();
+        }
+
+        function applyModeFilter() {
+            // Priority: Error(1), Down(2), Warning(3), Restricted(4), Active(5)
+            const priority = { 'Error': 1, 'Down': 2, 'Warning': 3, 'Restricted': 4, 'Active': 5 };
+            
+            let filtered = [...allData];
+            
+            if (currentMode === 'A') {
+                // Sequential all, prioritized by issues
+                filtered.sort((a, b) => {
+                    const pA = priority[a.category] || 99;
+                    const pB = priority[b.category] || 99;
+                    if (pA !== pB) return pA - pB;
+                    return (b.confidence_score || 0) - (a.confidence_score || 0);
+                });
+            } else if (currentMode === 'B') {
+                filtered = filtered.filter(item => ['Warning', 'Error', 'Down'].includes(item.category));
+                filtered.sort((a, b) => (priority[a.category] || 99) - (priority[b.category] || 99));
+            } else if (currentMode === 'C') {
+                filtered = filtered.filter(item => ['Active', 'Restricted'].includes(item.category));
+                filtered.sort((a, b) => (b.confidence_score || 0) - (a.confidence_score || 0));
+            } else if (currentMode === 'D') {
+                filtered = filtered.sort(() => 0.5 - Math.random());
+            }
+
+            displayData = filtered;
+            
+            if (currentIndex >= displayData.length) {
+                currentIndex = 0;
+            }
+            
+            renderCurrentSlide(true); 
+            
+            if (rotationTimer) clearInterval(rotationTimer);
+            if (displayData.length > 4) {
+                rotationTimer = setInterval(nextSlide, ROTATION_INTERVAL);
+            }
+        }
+
+        function createCardHtml(item) {
+            const cat = item.category || 'Unknown';
+            let cardClass = 'card-down';
+            let statusClass = 'status-down';
+            
+            if (cat === 'Active') { cardClass = 'card-active'; statusClass = 'status-active'; }
+            else if (cat === 'Warning') { cardClass = 'card-warning'; statusClass = 'status-warning'; }
+            else if (cat === 'Error') { cardClass = 'card-error'; statusClass = 'status-error'; }
+            else if (cat === 'Restricted') { cardClass = 'card-restricted'; statusClass = 'status-restricted'; }
+
+            let screenshotHtml = '';
+            if (item.screenshot) {
+                // Extract filename
+                const filename = item.screenshot.split(/[\\/]/).pop();
+                // Accessing raw_screenshots from parent dir
+                screenshotHtml = `<img class="card-img" src="../raw_screenshots/${filename}" alt="Screenshot" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'no-img\\'><svg viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'currentColor\\' stroke-width=\\'2\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' d=\\'M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z\\' /></svg>Image Missing</div>';">`;
+            } else {
+                screenshotHtml = `<div class="no-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>No Screenshot</div>`;
+            }
+
+            const portsStr = item.open_ports && item.open_ports.length > 0 ? item.open_ports.join(', ') : 'None';
+            const statusStr = item.http_status ? item.http_status : 'N/A';
+            const timeStr = item.response_time_ms ? `${item.response_time_ms}ms` : 'N/A';
+            const scoreStr = item.confidence_score !== undefined ? `${item.confidence_score}/100` : 'N/A';
+            const titleStr = item.page_title || 'No Title Available';
+
+            return `
+                <div class="card ${cardClass}">
+                    <div class="card-img-container">
+                        ${screenshotHtml}
+                    </div>
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h2 class="card-title">${item.website}</h2>
+                            <div class="card-status ${statusClass}">${cat}</div>
+                        </div>
+                        <div style="color: #94a3b8; font-size: 1.1vw; margin-bottom: 1vh; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex-shrink: 0;" title="${titleStr.replace(/"/g, '&quot;')}">
+                            📄 ${titleStr}
+                        </div>
+                        <div class="card-meta">
+                            <div class="badge">🌐 HTTP: ${statusStr}</div>
+                            <div class="badge">⏱️ ${timeStr}</div>
+                            <div class="badge">🔌 Ports: ${portsStr}</div>
+                            <div class="badge">🎯 Score: ${scoreStr}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderCurrentSlide(immediate = false) {
+            const container = document.getElementById('grid-container');
+            
+            const doRender = () => {
+                let html = '';
+                if (displayData.length === 0) {
+                    html = '<div style="grid-column: span 2; display: flex; justify-content: center; align-items: center; font-size: 2vw; color: #64748b; height: 100%;">No websites matching the current mode.</div>';
+                } else {
+                    for (let i = 0; i < 4; i++) {
+                        if (currentIndex + i < displayData.length) {
+                            html += createCardHtml(displayData[currentIndex + i]);
+                        } else if (displayData.length > 4) {
+                            html += createCardHtml(displayData[(currentIndex + i) % displayData.length]);
+                        } else {
+                            html += '<div></div>'; 
+                        }
+                    }
+                }
+                
+                container.classList.remove('slide-out', 'slide-in');
+                container.classList.add('slide-prepare');
+                container.innerHTML = html;
+                
+                void container.offsetWidth;
+                
+                container.classList.remove('slide-prepare');
+                container.classList.add('slide-in');
+            };
+
+            if (immediate) {
+                doRender();
+            } else {
+                container.classList.remove('slide-in');
+                container.classList.add('slide-out');
+                setTimeout(doRender, 800);
+            }
+        }
+
+        function nextSlide() {
+            if (displayData.length <= 4) return; 
+            
+            currentIndex += 4;
+            if (currentIndex >= displayData.length) {
+                currentIndex = 0;
+            }
+            renderCurrentSlide();
+        }
+
+        // Config Changes
+        document.getElementById('mode-select').addEventListener('change', (e) => {
+            currentMode = e.target.value;
+            currentIndex = 0;
+            applyModeFilter();
+        });
+
+        // Start
+        fetchHealthData();
+        refreshTimer = setInterval(fetchHealthData, REFRESH_INTERVAL);
+
+    </script>
+</body>
+</html>
